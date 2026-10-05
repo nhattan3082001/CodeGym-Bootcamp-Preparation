@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Câu 1 - Trung bình cộng các số chia hết cho 3</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <h1>Câu 1: Trung bình cộng các số chia hết cho 3</h1>
+
+  <form id="add-form" class="row">
+    <label for="number-input">Nhập số nguyên:</label>
+    <input type="number" id="number-input" step="1" required>
+    <button type="submit">Thêm vào mảng</button>
+  </form>
+
+  <p class="row">
+    Mảng hiện tại (<span id="array-size">0</span>/50 phần tử):
+    <strong id="array-display">[ ]</strong>
+  </p>
+
+  <div class="row">
+    <button type="button" id="calculate-button">Tính trung bình cộng các số chia hết cho 3</button>
+  </div>
+
+  <p id="result" class="result"></p>
+  <p id="error" class="error"></p>
+
+  <p><a href="../index.html">&larr; Quay lại danh sách</a></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
